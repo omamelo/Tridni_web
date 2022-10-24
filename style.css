@@ -205,6 +205,45 @@ a {
     grid-area: anglictina;
     margin: 8px;
     padding: 8px;
+    display: grid;
+    grid-template-areas:
+    "anglictinaheader anglictinaheader anglictinaheader anglictinaheader"
+    "zcehoa kdya ucita poznamkya"
+    "a1 a1 a1 a1";
+}
+
+.anglictinaheader {
+    font-weight: bold;
+    grid-area: anglictinaheader;
+    text-align: center;
+}
+
+.zcehoa {
+    grid-area: zcehoa;
+    font-weight: bold;
+    text-align: center;
+}
+
+.kdya {
+    grid-area: kdya;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ucita {
+    grid-area: ucita;
+    font-weight: bold;
+    text-align: center;
+}
+
+.poznamkya {
+    grid-area: poznamkya;
+    font-weight: bold;
+    text-align: center;
+}
+
+.a1 {
+    grid-area: a1;
 }
 
 .nemcina {
@@ -212,5 +251,39 @@ a {
     border-radius: 8px;
     grid-area: nemcina;
     margin: 8px;
-    padding: 8px; 
+    padding: 8px;
+    display: grid;
+    grid-template-areas:
+    "nemcinaheader nemcinaheader nemcinaheader nemcinaheader"
+    "zcehon kdyn ucitn poznamkyn"; 
+}
+
+.nemcinaheader {
+    font-weight: bold;
+    grid-area: nemcinaheader;
+    text-align: center;
+}
+
+.zcehon {
+    grid-area: zcehon;
+    font-weight: bold;
+    text-align: center;
+}
+
+.kdyn {
+    grid-area: kdyn;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ucitn {
+    grid-area: ucitn;
+    font-weight: bold;
+    text-align: center;
+}
+
+.poznamkyn {
+    grid-area: poznamkyn;
+    font-weight: bold;
+    text-align: center;
 }
