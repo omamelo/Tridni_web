@@ -163,21 +163,18 @@ a {
     grid-area: zceho1;
     text-align: center;
     position: relative;
-    right: 70px;
 }
 
 .kdy1 {
     grid-area: kdy1;
     text-align: center;
     position: relative;
-    right: 170px;
 }
 
 .ucit1 {
     grid-area: ucit1;
     text-align: center;
     position: relative;
-    right: 120px;
 }
 
 .poznamky1 {
@@ -209,7 +206,10 @@ a {
     grid-template-areas:
     "anglictinaheader anglictinaheader anglictinaheader anglictinaheader"
     "zcehoa kdya ucita poznamkya"
-    "a1 a1 a1 a1";
+    "a1 a1 a1 a1"
+    "testa11 testa11 testa11 testa11"
+    "a2 a2 a2 a2"
+    "testa21 testa21 testa21 testa21";
 }
 
 .anglictinaheader {
@@ -246,6 +246,82 @@ a {
     grid-area: a1;
 }
 
+.testa11 {
+    grid-area: testa11;
+    background-color: #9CAEA9;
+    opacity: 80%;
+    display: grid;
+    margin: 5px;
+    border-radius: 8px;
+    border: 2px solid #38302E;
+    grid-template-areas:
+    "zcehoa11 kdya11 ucita11 poznamkya11";
+}
+
+.zcehoa11 {
+    grid-area: zcehoa11;
+    text-align: center;
+    position: relative;
+}
+
+.kdya11 {
+    grid-area: kdya11;
+    text-align: center;
+    position: relative;
+}
+
+.ucita11 {
+    grid-area: ucita11;
+    text-align: center;
+    position: relative;
+}
+
+.poznamkya11 {
+    grid-area: poznamkya11;
+    text-align: center;
+    position: relative;
+}
+
+.a2 {
+    grid-area: a2;
+}
+
+.testa21 {
+    grid-area: testa21;
+    background-color: #9CAEA9;
+    opacity: 80%;
+    display: grid;
+    margin: 5px;
+    border-radius: 8px;
+    border: 2px solid #38302E;
+    grid-template-areas:
+    "zcehoa21 kdya21 ucita21 poznamkya21";
+}
+
+.zcehoa21 {
+    grid-area: zcehoa21;
+    text-align: center;
+    position: relative;
+}
+
+.kdya21 {
+    grid-area: kdya21;
+    text-align: center;
+    position: relative;
+}
+
+.ucita21 {
+    grid-area: ucita21;
+    text-align: center;
+    position: relative;
+}
+
+.poznamkya21 {
+    grid-area: poznamkya21;
+    text-align: center;
+    position: relative;
+}
+
 .nemcina {
     background-color: #CCDAD1;
     border-radius: 8px;
@@ -255,7 +331,11 @@ a {
     display: grid;
     grid-template-areas:
     "nemcinaheader nemcinaheader nemcinaheader nemcinaheader"
-    "zcehon kdyn ucitn poznamkyn"; 
+    "zcehon kdyn ucitn poznamkyn"
+    "n1 n1 n1 n1"
+    "testn11 testn11 testn11 testn11"
+    "n2 n2 n2 n2"
+    "testn21 testn21 testn21 testn21"; 
 }
 
 .nemcinaheader {
@@ -286,4 +366,84 @@ a {
     grid-area: poznamkyn;
     font-weight: bold;
     text-align: center;
+}
+
+.n1 {
+    grid-area: n1;
+}
+
+.testn11 {
+    grid-area: testn11;
+    background-color: #9CAEA9;
+    opacity: 80%;
+    display: grid;
+    margin: 5px;
+    border-radius: 8px;
+    border: 2px solid #38302E;
+    grid-template-areas:
+    "zcehon11 kdyn11 ucitn11 poznamkyn11";
+}
+
+.zcehon11 {
+    grid-area: zcehon11;
+    text-align: center;
+    position: relative;
+}
+
+.kdyn11 {
+    grid-area: kdyn11;
+    text-align: center;
+    position: relative;
+}
+
+.ucitn11 {
+    grid-area: ucitn11;
+    text-align: center;
+    position: relative;
+}
+
+.poznamkyn11 {
+    grid-area: poznamkyn11;
+    text-align: center;
+    position: relative;
+}
+
+.n2 {
+    grid-area: n2;
+}
+
+.testn21 {
+    grid-area: testn21;
+    background-color: #9CAEA9;
+    opacity: 80%;
+    display: grid;
+    margin: 5px;
+    border-radius: 8px;
+    border: 2px solid #38302E;
+    grid-template-areas:
+    "zcehon21 kdyn21 ucitn21 poznamkyn21";
+}
+
+.zcehon21 {
+    grid-area: zcehon21;
+    text-align: center;
+    position: relative;
+}
+
+.kdyn21 {
+    grid-area: kdyn21;
+    text-align: center;
+    position: relative;
+}
+
+.ucitn21 {
+    grid-area: ucitn21;
+    text-align: center;
+    position: relative;
+}
+
+.poznamkyn21 {
+    grid-area: poznamkyn21;
+    text-align: center;
+    position: relative;
 }
