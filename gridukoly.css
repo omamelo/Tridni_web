@@ -1,0 +1,21 @@
+.ukolyh1 {
+    text-align: left;
+    grid-area: headerukoly;
+    margin: 20px;
+    font-weight: 800;  
+}
+
+.headerukoly {
+    display: grid;
+    grid-template-areas: 
+    "headerukoly homeukoly";
+    background-color: #6F6866;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.homeukoly {
+    grid-area: homeukoly;
+    margin: auto;
+    text-align: right;
+}
