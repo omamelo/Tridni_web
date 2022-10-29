@@ -35,7 +35,7 @@ a {
     margin: auto;
 }
 
-.rozvrh {
+.rozvrhdiv {
     grid-area: rozvrh;
     margin: auto;
 }
@@ -71,4 +71,9 @@ a {
     grid-area: hometesty;
     margin: auto;
     text-align: right;
+}
+
+.redirect {
+    width: 10px;
+    color: #9CAEA9;
 }
