@@ -43,6 +43,8 @@
     grid-template-areas: 
     "predmet zceho kdy ucit poznamky"
     "vyplnovac vyplnovac vyplnovac vyplnovac vyplnovac"
+    "test3 test3 test3 test3 test3"
+    "test2 test2 test2 test2 test2"
     "test1 test1 test1 test1 test1";
 }
 
@@ -89,6 +91,98 @@
     grid-area: vyplnovac;
 }
 
+.test3 {
+    grid-area: test3;
+    background-color: #9CAEA9;
+    opacity: 80%;
+    display: grid;
+    margin: 5px;
+    border-radius: 8px;
+    border: 2px solid #38302E;
+    grid-template-areas:
+    "predmet3 zceho3 kdy3 ucit3 poznamky3";
+}
+
+.predmet3 {
+    grid-area: predmet3;
+    text-align: center;
+    position: relative;
+}
+
+.zceho3 {
+    grid-area: zceho3;
+    text-align: center;
+    position: relative;
+    right: 80px;
+}
+
+.kdy3 {
+    grid-area: kdy3;
+    text-align: center;
+    position: relative;
+    right: 170px;
+}
+
+.ucit3 {
+    grid-area: ucit3;
+    text-align: center;
+    position: relative;
+    right: 140px;
+}
+
+.poznamky3 {
+    grid-area: poznamky3;
+    text-align: center;
+    position: relative;
+    left: 20px;
+}
+
+.test2 {
+    grid-area: test2;
+    background-color: #9CAEA9;
+    opacity: 80%;
+    display: grid;
+    margin: 5px;
+    border-radius: 8px;
+    border: 2px solid #38302E;
+    grid-template-areas:
+    "predmet2 zceho2 kdy2 ucit2 poznamky2";
+}
+
+.predmet2 {
+    grid-area: predmet2;
+    text-align: center;
+    position: relative;
+}
+
+.zceho2 {
+    grid-area: zceho2;
+    text-align: center;
+    position: relative;
+    right: 40px;
+}
+
+.kdy2 {
+    grid-area: kdy2;
+    text-align: center;
+    position: relative;
+    right: 80px;
+}
+
+.ucit2 {
+    grid-area: ucit2;
+    text-align: center;
+    position: relative;
+    right: 90px;
+}
+
+.poznamky2 {
+    grid-area: poznamky2;
+    text-align: center;
+    position: relative;
+    left: 20px;
+}
+
 .test1 {
     grid-area: test1;
     background-color: red;
@@ -118,7 +212,7 @@
     grid-area: kdy1;
     text-align: center;
     position: relative;
-    right: 80px;
+    right: 60px;
 }
 
 .ucit1 {
@@ -132,6 +226,7 @@
     grid-area: poznamky1;
     text-align: center;
     position: relative;
+    left: 20px;
 }
 
 .vyplnovac2 {
