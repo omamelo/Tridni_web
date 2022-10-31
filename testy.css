@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    background-color: #38302E;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.headertestnum {
+    display: grid;
+    grid-template-areas:
+    "h1 zpet";
+}
+
+.testh1 {
+    display: inline-block;
+    margin: 10px;
+    grid-area: h1;
+    text-align: left;
+    margin-left: 120px;
+}
+
+.zpet {
+    display: inline-block;
+    margin: auto;
+    text-align: right;
+    grid-area: zpet;
+}
+
+a {
+    color: #9CAEA9;
+    text-decoration: dotted;
+    font-weight: bold;
+}
+
+div {
+    background-color: #6F6866;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+p {
+    margin: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.test {
+    padding: 20px;
+    background-color: red;
+    opacity: 80%;
+}

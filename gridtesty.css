@@ -184,6 +184,7 @@
 }
 
 .test1 {
+    cursor: pointer;
     grid-area: test1;
     background-color: red;
     opacity: 80%;
