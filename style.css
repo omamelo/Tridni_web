@@ -77,3 +77,14 @@ a {
     width: 10px;
     color: #9CAEA9;
 }
+
+.sluzbap {
+    font-weight: bold;
+    text-align: center;
+}
+
+.sluzba {
+    background-color: #6F6866;
+    margin: 10px;
+    border-radius: 8px;
+}
