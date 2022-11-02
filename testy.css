@@ -45,6 +45,9 @@ p {
 
 .test {
     padding: 20px;
-    background-color: red;
     opacity: 80%;
+}
+
+.ctvrtletka {
+    background-color: red;
 }

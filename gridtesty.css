@@ -138,6 +138,7 @@
 }
 
 .test2 {
+    cursor: pointer;
     grid-area: test2;
     background-color: #9CAEA9;
     opacity: 80%;
@@ -173,6 +174,8 @@
     grid-area: ucit2;
     text-align: center;
     position: relative;
+    margin: auto;
+    color: black;
     right: 90px;
 }
 
