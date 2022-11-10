@@ -205,7 +205,6 @@
     grid-area: kdya11;
     text-align: center;
     position: relative;
-    right: 50px;
 }
 
 .poznamkya11 {
@@ -320,6 +319,7 @@
     grid-area: kdyn11;
     text-align: center;
     position: relative;
+    right: 80px;
 }
 
 .poznamkyn11 {
