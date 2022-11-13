@@ -43,7 +43,8 @@
     grid-template-areas: 
     "predmet zceho kdy ucit poznamky"
     "vyplnovac vyplnovac vyplnovac vyplnovac vyplnovac"
-    "test1 test1 test1 test1 test1";
+    "test1 test1 test1 test1 test1"
+    "test2 test2 test2 test2 test2";
 }
 
 .provsechny {
@@ -158,14 +159,14 @@
     grid-area: zceho2;
     text-align: center;
     position: relative;
-    right: 40px;
+    right: 60px;
 }
 
 .kdy2 {
     grid-area: kdy2;
     text-align: center;
     position: relative;
-    right: 80px;
+    right: 150px;
 }
 
 .ucit2 {
@@ -174,7 +175,7 @@
     position: relative;
     margin: auto;
     color: black;
-    right: 90px;
+    right: 130px;
 }
 
 .poznamky2 {

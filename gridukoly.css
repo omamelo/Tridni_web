@@ -42,7 +42,8 @@
     grid-template-areas: 
     "predmet zceho kdy poznamky"
     "vyplnovac vyplnovac vyplnovac vyplnovac"
-    "ukol1 ukol1 ukol1 ukol1";
+    "ukol1 ukol1 ukol1 ukol1"
+    "ukol2 ukol2 ukol2 ukol2";
 }
 
 .provsechny {
@@ -110,18 +111,56 @@
     grid-area: zceho1;
     text-align: center;
     position: relative;
-    right: 20px;
+    left: 50px;
 }
 
 .kdy1 {
     grid-area: kdy1;
     text-align: center;
     position: relative;
-    right: 70px;
+    left: 60px;
 }
 
 .poznamky1 {
     grid-area: poznamky1;
+    text-align: center;
+    position: relative;
+}
+
+.ukol2 {
+    grid-area: ukol2;
+    background-color: #9CAEA9;
+    opacity: 80%;
+    display: grid;
+    margin: 5px;
+    border-radius: 8px;
+    border: 2px solid #38302E;
+    grid-template-areas:
+    "predmet2 zceho2 kdy2 poznamky2";
+}
+
+.predmet2 {
+    grid-area: predmet2;
+    text-align: center;
+    position: relative;
+}
+
+.zceho2 {
+    grid-area: zceho2;
+    text-align: center;
+    position: relative;
+    right: 50px;
+}
+
+.kdy2 {
+    grid-area: kdy2;
+    text-align: center;
+    position: relative;
+    right: 110px;
+}
+
+.poznamky2 {
+    grid-area: poznamky2;
     text-align: center;
     position: relative;
 }
