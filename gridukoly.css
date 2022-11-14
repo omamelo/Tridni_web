@@ -42,8 +42,7 @@
     grid-template-areas: 
     "predmet zceho kdy poznamky"
     "vyplnovac vyplnovac vyplnovac vyplnovac"
-    "ukol1 ukol1 ukol1 ukol1"
-    "ukol2 ukol2 ukol2 ukol2";
+    "ukol1 ukol1 ukol1 ukol1";
 }
 
 .provsechny {
