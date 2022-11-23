@@ -110,14 +110,14 @@
     grid-area: zceho1;
     text-align: center;
     position: relative;
-    left: 50px;
+    right: 50px;
 }
 
 .kdy1 {
     grid-area: kdy1;
     text-align: center;
     position: relative;
-    left: 60px;
+    right: 100px;
 }
 
 .poznamky1 {

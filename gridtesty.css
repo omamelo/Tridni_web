@@ -188,7 +188,7 @@
 .test1 {
     cursor: pointer;
     grid-area: test1;
-    background-color: red;
+    background-color: #9CAEA9;
     opacity: 80%;
     display: grid;
     margin: 5px;
@@ -208,21 +208,21 @@
     grid-area: zceho1;
     text-align: center;
     position: relative;
-    right: 40px;
+    right: 20px;
 }
 
 .kdy1 {
     grid-area: kdy1;
     text-align: center;
     position: relative;
-    right: 60px;
+    right: 70px;
 }
 
 .ucit1 {
     grid-area: ucit1;
     text-align: center;
     position: relative;
-    right: 50px;
+    right: 20px;
 }
 
 .poznamky1 {
