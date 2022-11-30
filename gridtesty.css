@@ -215,21 +215,21 @@
     grid-area: kdy1;
     text-align: center;
     position: relative;
-    right: 70px;
+    right: 120px;
 }
 
 .ucit1 {
     grid-area: ucit1;
     text-align: center;
     position: relative;
-    right: 20px;
+    right: 80px;
 }
 
 .poznamky1 {
     grid-area: poznamky1;
     text-align: center;
     position: relative;
-    left: 20px;
+    right: 10px;
 }
 
 .vyplnovac2 {
@@ -449,6 +449,7 @@
     grid-area: ucitn11;
     text-align: center;
     position: relative;
+    right: 40px;
 }
 
 .poznamkyn11 {
